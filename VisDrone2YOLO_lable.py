@@ -3,8 +3,8 @@ import pandas as pd
 from PIL import Image
 
 YOLO_LABELS_PATH = "../datasets/VisDrone/VisDrone2019-DET-val/labels"
-VISANN_PATH = "../datasets/VisDrone/VisDrone2019-DET-val/annotations/"
-VISIMG_PATH = "../datasets//VisDrone/VisDrone2019-DET-val/images/"
+VISANN_PATH = "/content/drive/MyDrive/VisDrone/VisDrone2019-DET-val/annotations"
+VISIMG_PATH = "/content/drive/MyDrive/VisDrone/VisDrone2019-DET-val/images"
 
 def convert(bbox, img_size):
     #将标注visDrone数据集标注转为yolov5
